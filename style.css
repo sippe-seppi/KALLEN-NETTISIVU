@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 0 auto;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    /*outline: solid red;*/
+}
+
+#landingpage {
+    background-image: url(kallekuva1.jpeg);
+    background-size: 20vmin;
+    background-repeat: repeat;
+    display: flex;
+}
+
+.wrapper {
+    width: 100vmin;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 10vmin;
+}
+
+h2 {
+    font-size: 7vmin;
+}
+
+h3 a {
+    font-size: 5vmin;
+    font-style: italic;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
